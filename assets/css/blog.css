@@ -1,0 +1,100 @@
+.blogs{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+}
+.blogHead{
+    height: 14%;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blogHead h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+}
+.blogsContainer{
+    height: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.blogCardSec{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.blogCard{
+    width: Fixed (304px);
+height: Hug (175px);
+gap: 8px;
+   position: relative;
+
+}
+.blogCard img{
+    z-index: 1;
+    width: 342px;
+height: 491px;
+border-radius: 12px;
+
+}
+.blogText{
+    width: 304px;
+    height: 175px;
+    gap: 8px;
+    
+    padding: 16px 24px;
+    border-radius: 12px;
+    gap: 8px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    box-shadow: 0px 2px 8px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 3;
+    
+}
+.blogText h6{
+    font-family: Montserrat !important;
+
+font-size: 1.25rem !important;
+font-weight: 600 !important;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+background: linear-gradient(to right, #45A2DD , #4D31ED); /* Define your gradient colors here */
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+
+}
+.blogText p{
+ 
+font-weight: 300;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #252525;
+font-size: .8rem !important;
+font-family: Montserrat !important;
+
+
+}

@@ -1,0 +1,443 @@
+#cardSection {
+    height: 730px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.cardContainer {
+    height: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.topCard {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+ 
+}
+.topCard i{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    background: linear-gradient(to right, #4D31ED, #45A2DD);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+.topCardText{
+    width: auto;
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+}
+.topCard h2{
+
+font-size: 1.3rem;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+background: linear-gradient(to right, #4D31ED, #45A2DD); /* Define your gradient colors here */
+  -webkit-background-clip: text; /* For webkit-based browsers (Chrome, Safari, etc.) */
+  background-clip: text; /* Standard syntax */
+  color: transparent;
+}
+.cards {
+   
+    min-width: 400px;
+  max-width: 1440px;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    overflow: scroll;
+}
+
+.card {
+    flex: 0 0 342px;
+    height: 511px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px 0px #00000026;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+
+}
+
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbars for Firefox */
+.cards {
+    scrollbar-width: none;
+}
+
+.cardImg {
+    height: 45%;
+    width: 100%;
+    position: relative;
+    background-image: url(/assets/images/2023-acura-integra-a-spec-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.cardImgShadow {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/Rectangle\ 1.png);
+    position: absolute;
+}
+
+.fav {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 12px;
+    right: 20px;
+    top: 20px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.favIcon {
+
+    background: linear-gradient(to right, #4D31ED, #45A2DD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.1rem;
+
+}
+
+.favIconActive {
+    background: linear-gradient(to right, #4D31ED, #45A2DD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.1rem;
+}
+
+.cardText {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTopText {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardLine {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardLine .line {
+    height: 1px;
+    width: 90%;
+    background: #8D8D8D;
+    opacity: .8;
+
+}
+
+
+.buttonCard {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carNameStar {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+
+.carNameStar h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.carNameStar p {
+
+   
+    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.carYearSpons {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.carMoneyPrev {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.carMoneyPrev h2 {
+   
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+
+}
+
+.carMoneyPrev p {
+   
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-decoration: line-through;
+}
+
+.carYearSpons h2 {
+
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+
+
+}
+
+.buttonCard button {
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 312px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    position: relative;
+    background-image: linear-gradient(to left,
+            #4D31ED -3.2%,
+            #45A2DD 92.96%);
+    z-index: 1;
+    background: linear-gradient(268.35deg, #4D31ED -3.2%, #45A2DD 92.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background-image:
+        linear-gradient(var(--button-bg-start), var(--button-bg-end)),
+        linear-gradient(268.35deg, var(--button-bg-border-start) -3.2%, var(--button-bg-border-end) 92.96%);
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+
+
+}
+
+.btnTextCard {
+    background: linear-gradient(268.35deg, #4D31ED -3.2%, #45A2DD 92.96%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: .3s;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+
+
+.buttonCard button:hover .btnTextCard {
+
+    color: white;
+    transition: .1s;
+
+}
+
+
+.buttonCard button:hover {
+    background-image: none !important;
+    background: linear-gradient(268.35deg, #4D31ED -3.2%, #45A2DD 92.96%) !important;
+
+}
+
+
+
+.buttonCard button::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right,
+            #45A2DD 92.96%,
+            #45A2DD 92.96%);
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    border-radius: 12px;
+    border: 1px solid transparent;
+
+}
+
+.buttonCard button:hover::before {
+    opacity: 1;
+}
+
+.buttonCard button:hover {
+    border: 0 !important;
+}
+
+
+.cardBottomText {
+    height: 30%;
+    width: 100%;
+}
+
+.cardBottomTextTop {
+    height: 50%;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.people h2 {
+
+   
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8D8D;
+}
+
+.automatic h2 {
+
+   
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8D8D;
+}
+
+.automatic {
+    gap: 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.cardBottomTextBtm {
+    height: 50%;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.petrol {
+    gap: 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.engine {
+    gap: 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.petrol h2 {
+
+
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8D8D;
+}
+
+.engine h2 {
+
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8D8D;
+}

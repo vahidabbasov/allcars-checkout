@@ -1,0 +1,123 @@
+.discount{
+    height: 760px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.discountContainer{
+    height: 508px;
+    background-image: url(/assets/images/Discount\ cover.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.discount img {
+    position: absolute;
+    right: 5px;
+    bottom: -120px !important;
+    bottom: 0;
+    z-index: 3;
+
+    
+
+
+}
+.discountText{
+    position: absolute;
+    width: Hug (721px);
+    height: Hug (308px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 60px;
+    justify-content: center;
+    gap: 16px;
+    z-index: 4;
+    top: 50%;
+  transform: translateY(-50%);
+
+
+}
+.discountText h2{
+font-size: 4rem !important;
+font-family: Montserrat !important;
+font-size: 64px;
+font-weight: 800;
+line-height: 78px;
+letter-spacing: 0em;
+color: #009DFF;
+
+width: 721px;
+height: 78px;
+
+}
+.discountText h3{
+  max-width: 502px;
+  height: 118px;
+font-size: 48px;
+font-weight: 500;
+line-height: 59px;
+letter-spacing: 0em;
+font-weight: 400;
+margin-bottom: 24px;
+font-family: Montserrat !important;
+
+font-weight: 400 !important;
+line-height: 59px;
+letter-spacing: 0em;
+height: 118px;
+
+}
+
+
+
+
+.discountText button {
+    height: 56px !important;
+    width: 223px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    gap: 16px;
+    color: white;
+    border: 0 solid;
+    border-radius: 12px;
+  
+    position: relative;
+  
+    background-image: linear-gradient(
+      to left,
+    #4D31ED -3.2%,
+     #45A2DD 92.96%
+    );
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .discountText button::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to right,
+      #45A2DD 92.96%,
+      #45A2DD 92.96%
+       
+    );
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    border: 0 solid;
+    border-radius: 12px;
+  
+  }
+  .discountText button:hover::before {
+    opacity: 1;
+  }

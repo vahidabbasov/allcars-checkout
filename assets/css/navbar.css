@@ -1,0 +1,235 @@
+
+
+:root {
+    --button-bg-start: white;
+    --button-bg-end: white;
+    --button-bg-border-start: #4D31ED ;
+    --button-bg-border-end: #45A2DD ;
+  }
+  
+nav {
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    z-index: 999;
+    
+}
+
+.navContainer{
+  height: 100px;
+  width: 1600px;
+  display: flex;
+
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.links {
+    height: 100%;
+    width: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links ul li {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    font-family: Montserrat !important;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.links ul li:hover {
+transform: scale(1.2);
+transition: .3s;
+  
+}
+#lang{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: 0 solid transparent;
+    margin-right: 80px;
+    width: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+color: black !important;
+font-family: Montserrat;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.buttons {
+    width: 32%;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    gap: 24px;
+}
+
+.buttons button {
+  width: 135px;
+  height: 44px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 12px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+  
+
+}
+
+#log {
+    color: white;
+    border: 0 solid;
+    border-radius: 12px;
+
+    position: relative;
+
+    background-image: linear-gradient(
+      to left,
+    #4D31ED -3.2%,
+     #45A2DD 92.96%
+    );
+    z-index: 1;
+  }
+
+
+
+
+.whiteBtn {
+
+    position: relative;
+    background-image: linear-gradient(
+      to left,
+    #4D31ED -3.2%,
+     #45A2DD 92.96%
+    );
+    z-index: 1;
+    background: linear-gradient(268.35deg, #4D31ED -3.2%, #45A2DD 92.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+   border: 1px solid transparent;
+   background-image:
+     linear-gradient( var(--button-bg-start) , var(--button-bg-end)),
+     linear-gradient(268.35deg, var(--button-bg-border-start) -3.2%, var(--button-bg-border-end)  92.96%);
+ 
+   background-origin: border-box;
+   background-clip: padding-box, border-box;
+
+   
+ 
+}
+.btnText {
+    background: linear-gradient(268.35deg, #4D31ED -3.2%, #45A2DD 92.96%);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    transition: .3s;
+}
+
+
+
+.whiteBtn:hover .btnText {
+
+    color: white;
+    transition: .1s;
+
+}
+
+
+.whiteBtn:hover{
+    background-image: none !important;
+    background: linear-gradient(268.35deg, #4D31ED -3.2%, #45A2DD 92.96%) !important; 
+
+}
+
+#log::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    #45A2DD 92.96%,
+    #45A2DD 92.96%
+     
+  );
+  z-index: -1;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  border: 0 solid;
+  border-radius: 12px;
+
+}
+#log:hover::before {
+  opacity: 1;
+}
+
+
+.whiteBtn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to right,
+      #45A2DD 92.96%,
+      #45A2DD 92.96%
+       
+    );
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    border-radius: 12px;
+    border: 1px solid transparent;
+  
+  }
+  .whiteBtn:hover::before {
+    opacity: 1;
+  }
+  
+  .whiteBtn:hover {
+    border: 0 !important;
+  }

@@ -1,0 +1,221 @@
+.allCardLogo{
+    margin-right: 60px;
+}
+
+@media (min-width:1311px) {
+    .search{
+        display: none;
+    }
+}
+
+/* .mainWrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+} */
+
+.allCarsSection{
+    margin-top: 58px;
+}
+.allCarsSectionWrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.allCarsFilters{
+    width: 245px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.allCarsFilters__left button{
+    display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid #E7E7E8;
+background-color: white;
+}
+.allCarsFilters__right button{
+    display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid #E7E7E8;
+background-color: white;
+}
+
+.showMap button{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+border-bottom: 1px solid var(--color-hover, #009DFF);
+color: var(--color-hover, #009DFF);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+background-color: white;
+cursor: pointer;
+
+}
+.carsWrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    gap: 24px
+    ;
+}
+
+.carsWrapperLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.carsWrapperLeftCard{
+    width: 708px;
+    height: 238px;
+    border: 1px solid black;
+    border-radius: 8px;
+border: 1px solid var(--1, #4D31ED);
+background: var(--color-white, #FFF);
+display: flex;
+gap: 14px;
+}
+
+.carsWrapperLeftCardImg{
+    width: 319px;
+height: 201px;
+border-radius: 8px 0px 0px 0px;
+background: var(--Linear-blue, linear-gradient(180deg, #2788C6 0%, rgba(217, 217, 217, 0.00) 41.5%));
+}
+
+.carsWrapperLeftCardContent{
+    display: flex;
+padding: 8px 16px;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+}
+
+.cardContentTitle{
+    display: flex;
+gap: 12px;
+align-self: stretch;
+justify-content: space-between;
+width: 343px;
+padding-bottom: 16px;
+color: #000;
+
+/* H6/Bold */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 24px */
+}
+
+.cardContentTitleRight{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cardContentRegion{
+    display: flex;
+    width: 343px;
+    justify-content: space-between;
+}
+
+.cardContentRegionLeft{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cardContentSettings{
+    width: 343px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 16px;
+    border-top: 1px solid var(--Gray, #D3D3D3);
+    border-bottom: 1px solid var(--Gray, #D3D3D3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardContentSettingsLeftTop{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.cardContentSettingsLeftBottom{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.cardContentSettingsRightTop{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.cardContentSettingsRightBottom{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cardContentPrice{
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+padding-top: 16px;
+}
+
+.cardContentPriceLeft span:first-child{
+    color: var(--discount, #F62717);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration: line-through;
+margin-right: 7px   ;
+}
+.cardContentPriceLeft span:last-child{
+    color: var(--Black-300, var(--color-text, #252525));
+
+/* H6/Bold */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 24px */
+}
+
+.cardContentPriceRight{
+    color: var(--Blue-100, var(--color-hover, #009DFF));
+
+/* Subtitle 1/Regular */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.hidden {
+    display: none;
+}

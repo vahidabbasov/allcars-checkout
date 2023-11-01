@@ -1,0 +1,129 @@
+.hosting{
+    height:800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.hostingContainer{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hostingText{
+  width: 524px;
+  height:318px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+.hostingText h2{
+   
+font-size: 4rem;
+font-weight: 800;
+line-height: 78px;
+letter-spacing: 0em;
+color: #000000;
+font-family: Montserrat;
+
+
+
+}
+.hostingText h6{
+  font-family: Montserrat !important;
+  font-size: 1.25rem  !important;
+  font-weight: 300 !important;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #252525 !important;
+
+  
+
+}
+
+
+
+
+.hostingText button {
+    height: 64px;
+    width: 313px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    gap: 16px;
+    color: white;
+    border: 0 solid;
+padding: 20px 40px 20px 40px;
+
+
+    border-radius: 12px;
+  
+    position: relative;
+  
+    background-image: linear-gradient(
+      to left,
+    #4D31ED -3.2%,
+     #45A2DD 92.96%
+    );
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hostingText button::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to right,
+      #45A2DD 92.96%,
+      #45A2DD 92.96%
+       
+    );
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    border: 0 solid;
+    border-radius: 12px;
+  
+  }
+  .hostingText button:hover::before {
+    opacity: 1;
+  }
+  .hostingImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .secondImages{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .firstImage{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstImage img{
+    width: 342px;
+height: 555px;
+
+
+  }

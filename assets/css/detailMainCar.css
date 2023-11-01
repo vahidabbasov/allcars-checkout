@@ -1,0 +1,482 @@
+:root {
+    --button-bg-start: white;
+    --button-bg-end: white;
+    --button-bg-border-start: #4D31ED;
+    --button-bg-border-end: #45A2DD;
+}
+
+#mainCar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainCarCont {
+    height: 1000px;
+    width: 1600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.carImages {
+    width: 100%;
+    height:720px;
+    overflow: hidden;
+
+}
+.carImages img{
+   
+    max-height:700px;
+   
+}
+
+.detailMainCarImg {
+    position: absolute;
+
+}
+
+.slideCount {
+    width: 129px;
+    height: 44px;
+    top: 510px;
+    left: 50%;
+    transform: translate(-50%);
+
+    border-radius: 12px;
+    border: 1px solid #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 17px;
+    opacity: 0.8px;
+    background-color: #252525;
+    position: absolute;
+    z-index: 10;
+    opacity: .8;
+
+}
+
+.slideCount sub {
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+}
+
+.slideCount i {
+    color: white;
+}
+
+.carImages img{
+    display: none;
+}
+
+.carInfo {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    width: 1346px;
+    height: 324px;
+    top: 586px;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 32px;
+    padding-left: 48px;
+    padding-bottom: 32px;
+    padding-right: 48px;
+    border-radius: 12px;
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+}
+
+.carInfoLeft {
+
+    width: 516px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.carInfoRight {
+    width: 654px;
+    height: 260px;
+    display: flex;
+    gap: 80px;
+
+}
+
+.carNameAndStars {
+    width: 516px;
+    height: 80px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carName {
+    width: 516px;
+    height: 48px;
+
+}
+
+.carName h3 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.carStars {
+    width: 215px;
+    height: 24px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.stars {
+    width: 104px;
+    height: 16px;
+    display: flex;
+    gap: 6px;
+    color: #009DFF;
+}
+
+.carStars sub {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 95px;
+    height: 24px;
+    color: #009DFF;
+
+}
+
+.carDescription {
+    width: 492px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+
+}
+
+.carDescription sub {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 96px;
+    height: 24px;
+    color: #8D8D8D;
+}
+
+.carDescription h6 {
+    width: 492px;
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.mainCarSelections {
+    width: 316px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.tripStart {
+    width: 316px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tripStart sub {
+    width: 75px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #009DFF;
+}
+
+.tripEnd {
+    width: 316px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tripEnd sub {
+    width: 75px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #009DFF;
+}
+
+.pickup {
+    width: 316px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pickup sub {
+    width: 201px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252525;
+}
+
+.selection {
+    width: 316px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px;
+    display: flex;
+    border: 1px solid #8D8D8D
+}
+
+.tripDate {
+    width: 178px;
+    height: 44px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tripDate sub {
+    width: 112px;
+    height: 24px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.tripTime {
+    width: 138px;
+    height: 44px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border: 0px, 0px, 0px, 1px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #8D8D8D;
+    gap: 10px;
+
+}
+
+.tripTime sub {
+    width: 72px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+
+}
+
+.pickup .selection {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+
+.pickup .selection sub {
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 250px;
+    height: 24px;
+}
+
+.rent {
+    width: 258px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.price {
+    width: 258px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.priceByDay {
+    width: 221px;
+    height: 38px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.priceByDay p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8D8D;
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.priceByDay sub {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252525;
+    width: 160px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.price h5 {
+    width: 159px;
+    height: 29px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252525;
+    text-decoration: underline;
+}
+
+i {
+    cursor: pointer;
+}
+
+.rentButton {
+    width: 258px;
+    height: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    gap: 16px;
+    color: white;
+    border: 0 solid;
+    border-radius: 12px;
+
+    position: relative;
+
+    background-image: linear-gradient(to left,
+            #4D31ED -3.2%,
+            #45A2DD 92.96%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rentButton::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right,
+            #45A2DD 92.96%,
+            #45A2DD 92.96%);
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    border: 0 solid;
+    border-radius: 12px;
+
+}
+
+.rentButton:hover::before {
+    opacity: 1;
+}

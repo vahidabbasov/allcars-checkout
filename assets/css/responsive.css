@@ -1,0 +1,111 @@
+@media  (max-width: 1500px) {
+
+    .blogCard{
+        width: 20%;
+    }
+  .cards{
+    max-width: 90% !important;
+  }
+  .topCard{
+    max-width: 90% !important;
+  }
+  .container{
+    max-width: 90% !important;
+  } 
+
+  .blogCard{
+    width: 23%;
+  }
+
+  .blogCard img{
+    width: 100% !important;
+  }
+  .blogText{
+    width: 90% !important;
+    transform: translate(-50%, -40%) !important; 
+  }
+
+
+}
+
+
+
+
+
+
+
+@media   (max-width: 1500px) {
+
+  .city{
+    width: 30% !important;
+  }
+  .firstDate{
+    width: 48% !important;
+   
+  }
+  .secondDate{
+    width: 48% !important;
+    margin-left: 15px !important;
+    padding: 0 !important;
+   
+  }
+  .firstDate{
+    padding-right: 15px !important;
+    
+  }
+  .search .circle{
+    width: 42px !important;
+    height: 42px !important;
+  
+  }
+  .city p{
+    font-size: 1.1rem !important
+  }
+  
+  .date{
+    width: 50% !important;
+    gap: 05px !important;
+    padding-left: 0 !important;
+  }
+  .calendar h6{
+    font-size: 1.1rem !important;
+  }
+  .clock{
+    width: 30% !important;
+  }
+  .calendar{
+    width: 60% !important;
+  }
+  .clock h6{
+    font-size: 1.1rem !important;
+  }
+  .mainCont{
+    width:90%!important;
+  }
+  .mainSearch{
+    width: 100% !important;
+  }
+  .searchOpen{
+    width: 100%!important;
+  }
+
+  .cityOpen{
+    width:40% !important;
+  }
+  .close{
+    width: 203.4px !important;
+  }
+  .mainSearch{
+    padding-left: 30px !important;
+  }
+  .open{
+    width: 203.4px !important;
+  }
+  .mainContOpen{
+    width: 100% !important;
+  }
+  }
+  @media (min-width: 1200px) {
+.mobileNav{
+  display: none;
+}}
